@@ -1,0 +1,31 @@
+{
+  "name": "electron-websockets-demo",
+  "version": "1.0.0",
+  "description": "Websockets Electron Application Demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-packager . --overwrite --out=dist"
+  },
+  "build": {
+    "appId": "io.AgileVision.ElectronWebsocketsDemo",
+    "mac": {
+      "category": "Network"
+    }
+  },
+  "repository": "https://github.com/AgileVisionCompany/electron-websockets-demo",
+  "keywords": [
+    "Electron",
+    "NodeJS",
+    "IoT"
+  ],
+  "author": "Volodymyr Rudyi<volodymyr@agilevision.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.2"
+  },
+  "dependencies": {
+    "socket.io-client": "^1.7.3"
+  }
+}
