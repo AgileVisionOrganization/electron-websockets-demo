@@ -13,6 +13,9 @@ app.on('ready', () => {
         {
           label: 'Exit',
           selector: 'terminate:',
+          click: () => {
+            app.quit();
+          }
         }
     ]
   )
